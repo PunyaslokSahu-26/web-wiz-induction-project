@@ -72,6 +72,9 @@ ul{
     margin-top: 10px;
     margin-bottom: 40px;
 }
+.intro.intro-pic{
+    padding-top: 10px;
+}
 .intro .description .button .order-now {
     background-color: #ea8d14;
     color: black;
