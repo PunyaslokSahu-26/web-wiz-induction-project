@@ -5,10 +5,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-.navbar{
+/* .navbar{
     background-color: #3f181c;
     position: fixed;
-}
+} */
 a{
     text-decoration: none;
     color: rgb(245, 239, 239);
