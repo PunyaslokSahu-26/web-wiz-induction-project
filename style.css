@@ -65,6 +65,7 @@ ul{
 }
 .intro .description{
     padding: 30px;
+    margin: 20px;
 }
 .intro .description .about-text{
     color: aliceblue;
