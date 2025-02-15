@@ -5,10 +5,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-.navbar{
-    background-color: #3f181c;
-    position: fixed;
-} 
 a{
     text-decoration: none;
     color: rgb(245, 239, 239);
@@ -23,6 +19,8 @@ ul{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: #3f181c;
+    position: fixed;
 }
 .navbar .nav-menu {
     display: flex;
@@ -65,16 +63,12 @@ ul{
 }
 .intro .description{
     padding: 30px;
-    margin: 20px;
 }
 .intro .description .about-text{
     color: aliceblue;
     width: 600px;
     margin-top: 10px;
     margin-bottom: 40px;
-}
-.intro.intro-pic{
-    padding-top: 20px;
 }
 .intro .description .button .order-now {
     background-color: #ea8d14;
@@ -115,6 +109,9 @@ ul{
     border-color: #ea8d14;
     transition: 0.12s;
 }
+.intro .intro-pic{
+    padding-top: 40px;
+}
 .about-us{
     display: flex;
     justify-content: space-between;
@@ -128,9 +125,11 @@ ul{
     align-items: center;
 }
 .about-us .about-pic .image-about{
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 60px;
 }
 .about-us .about-text{
     background-color: white;
@@ -348,11 +347,12 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding: 35px;
+    padding-right: 20px;
 }
 .testimonials .testimonial-heading{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    padding-top: 80px;
 }
 .testimonials .person1 img{
     height: 150px;
@@ -390,7 +390,7 @@ ul{
     border-radius: 4px;
     justify-content: center;
     margin-left: 730px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .testimonials .testimonials-review .person1 .p1-name{
     margin-left: 10px;
@@ -453,7 +453,7 @@ ul{
     margin-right: 10px;
 }
 .testimonials{
-    height: 500px;
+    height: 600px;
 }
 .gallery .bar{
     background-color: #ea8d14;
@@ -528,6 +528,7 @@ ul{
     margin: 30px;
     border-radius: 10px;
     border-color: transparent;
+    padding-left: 30px;
 }
 .contact-us-bar .contact-main .form-submit .input-msg{
     height: 40px;
